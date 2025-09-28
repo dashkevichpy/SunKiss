@@ -26,3 +26,14 @@ void loop() {
   gProcess.onSensorTick();
   gProto.update();
 }
+
+// ===== force-compile implementation units for Arduino IDE =====
+#include "drivers/Actuators.cpp"
+#include "process/Process.cpp"
+#include "proto/SerialProto.cpp"
+#include "sensors/Sensors.cpp"
+#include "storage/Config.cpp"
+#ifdef USE_LCD
+#include "ui/LcdPages.cpp"
+#endif
+// ==============================================================

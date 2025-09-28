@@ -3,10 +3,10 @@
 #include <Arduino.h>
 #include <Stream.h>
 
-#include "drivers/Actuators.h"
-#include "process/Process.h"
-#include "sensors/Sensors.h"
-#include "storage/Config.h"
+#include "../drivers/Actuators.h"
+#include "../process/Process.h"
+#include "../sensors/Sensors.h"
+#include "../storage/Config.h"
 
 namespace proto {
 

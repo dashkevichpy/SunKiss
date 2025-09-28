@@ -2,8 +2,8 @@
 
 #include <math.h>
 
-#include "pins.h"
-#include "storage/Config.h"
+#include "../include/pins.h"
+#include "../storage/Config.h"
 
 namespace sensors {
 namespace {

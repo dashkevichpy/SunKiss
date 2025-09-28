@@ -2,9 +2,9 @@
 
 #include <Arduino.h>
 
-#include "drivers/Actuators.h"
-#include "sensors/Sensors.h"
-#include "storage/Config.h"
+#include "../drivers/Actuators.h"
+#include "../sensors/Sensors.h"
+#include "../storage/Config.h"
 
 namespace process {
 

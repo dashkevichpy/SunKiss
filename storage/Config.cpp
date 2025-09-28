@@ -1,4 +1,4 @@
-#include "storage/Config.h"
+#include "Config.h"
 
 #include <EEPROM.h>
 #include <math.h>

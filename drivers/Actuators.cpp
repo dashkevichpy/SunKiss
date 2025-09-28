@@ -1,6 +1,6 @@
 #include "Actuators.h"
 
-#include "storage/Config.h"
+#include "../storage/Config.h"
 
 namespace {
 uint8_t relayLevel(bool on) {

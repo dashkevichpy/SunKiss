@@ -3,7 +3,7 @@
 #include <Arduino.h>
 #include <Stream.h>
 
-#include "storage/Config.h"
+#include "../storage/Config.h"
 
 namespace sensors {
 

@@ -2,13 +2,16 @@
 
 #include <math.h>
 
-#include "storage/Config.h"
+#include "../storage/Config.h"
 
 #ifdef SIMULATION
 #include "sim/FluidSim.h"
 #endif
 
 namespace process {
+// Out-of-class definition for ODR use
+constexpr float Process::DEFAULT_PUMP_RATES[4];
+
 namespace {
 
 float constrainPositive(float value, float fallback) {

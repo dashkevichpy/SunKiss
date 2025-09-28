@@ -1,4 +1,4 @@
-#include "proto/SerialProto.h"
+#include "SerialProto.h"
 
 #include <ctype.h>
 #include <math.h>

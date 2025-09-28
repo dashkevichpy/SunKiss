@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Arduino / Qt / build
+build*/
+cmake-build*/
+*.user
+*.pro.user
+*.qmlc
+*.jsc
+CMakeCache.txt
+CMakeFiles/
+*.obj
+*.o
+*.so
+*.a
+*.dll
+*.dylib
+*.app
+.idea/
+.vscode/
